@@ -45,6 +45,10 @@ This project builds a scalable data pipeline to process Uber trip data (e.g., `t
 [End]
 ```
 
+```
+### Workflow Diagram
+![Data Pipeline Workflow](./Data%20Pipeline%20Workflow%20with%20Mage%20AI.png)
+```
 ---
 
 ## 🛠️ Tools & Technologies
@@ -193,3 +197,5 @@ Hi, I’m **Faheem Khan**, a passionate **Machine Learning Engineer** and **Data
 Interested in collaborating or hiring? Reach out via [LinkedIn](https://linkedin.com/in/faheemkhanml) or explore the code on [GitHub](https://github.com/FaheemKhan0817/Uber-Data-Analytics-End-To-End-Data-Engineering-Project.git). Let’s build something amazing together! 🚀
 
 ---
+
+*License: MIT | Last Updated: June 2025*
