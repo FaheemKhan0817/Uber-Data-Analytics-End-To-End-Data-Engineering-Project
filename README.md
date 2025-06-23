@@ -46,8 +46,7 @@ This project builds a scalable data pipeline to process Uber trip data (e.g., `t
 ```
 ![Data Pipeline Workflow](./data_pipeline_workflow_mageai.png)
 
-
-```
+---
 
 ## 🛠️ Tools & Technologies
 
@@ -68,7 +67,7 @@ This project builds a scalable data pipeline to process Uber trip data (e.g., `t
 ```
 Uber-Data-Analytics-End-To-End-Data-Engineering-Project/
 ├── data/
-│   └── uber_data.csv               # Sample Uber trip data
+│   └── trips.csv               # Sample Uber trip data
 ├── mage_pipeline/
 │   ├── data_loader.py         # Loads data from GCP Bucket
 │   ├── transformer.py         # Cleans and transforms data
@@ -123,17 +122,17 @@ Follow these steps to replicate the project locally or on GCP.
 5. **Configure Mage AI Pipeline**
    - Create a new pipeline in Mage AI.
    - Add blocks:
-     - **Data Loader**: Load `uber_data.csv` from `gs://uber-data-2025`.
+     - **Data Loader**: Load `trips.csv` from `gs://uber-data-2025`.
      - **Transformer**: Clean data (e.g., remove nulls, convert dates).
-     - **Data Exporter**: Export to BigQuery (`uber_data_dataset.table`).
+     - **Data Exporter**: Export to BigQuery (`uber_data_dataset.trips_table`).
    - Authenticate GCP in Mage AI (use service account key).
 
 6. **Set Up BigQuery**
    - Create a dataset: `uber_data_dataset`.
-   - Let Mage AI create the table (`table`) during export.
+   - Let Mage AI create the table (`trips_table`) during export.
 
 7. **Create Looker Studio Dashboard**
-   - Connect Looker Studio to BigQuery (`uber_data_dataset.table`).
+   - Connect Looker Studio to BigQuery (`uber_data_dataset.trips_table`).
    - Build visualizations (e.g., bar charts for trip volume, maps for pickup locations).
    - View the dashboard: [Link](https://lookerstudio.google.com/reporting/3c1c4e41-c3d5-4bca-ac0c-af37e905b9d7).
 
@@ -179,13 +178,13 @@ Hi, I’m **Faheem Khan**, a passionate **Machine Learning Engineer** and **Data
 
 - **LinkedIn**: [Faheem Khan](https://linkedin.com/in/faheemkhanml)
 - **GitHub**: [FaheemKhan0817](https://github.com/FaheemKhan0817)
-- **Portfolio**: [Faheem Khan](https://www.datascienceportfol.io/Faheem_Khan)
+- **Portfolio**: [Insert Portfolio Link, if available]
 
 ---
 
 ## 🙌 Acknowledgments
 
-- **Darshil Parmar** YouTube tutorials.
+- **Sudhanshu Gusain**, **Krish Naik**, and **Vikash Das** for their inspiring Udemy and YouTube tutorials.
 - **Mage AI** and **GCP** communities for excellent documentation.
 
 ---
