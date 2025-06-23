@@ -178,13 +178,13 @@ Hi, I’m **Faheem Khan**, a passionate **Machine Learning Engineer** and **Data
 
 - **LinkedIn**: [Faheem Khan](https://linkedin.com/in/faheemkhanml)
 - **GitHub**: [FaheemKhan0817](https://github.com/FaheemKhan0817)
-- **Portfolio**: [Insert Portfolio Link, if available]
+- **Portfolio**: [Faheem Khan](https://www.datascienceportfol.io/Faheem_Khan)  
 
 ---
 
 ## 🙌 Acknowledgments
 
-- **Sudhanshu Gusain**, **Krish Naik**, and **Vikash Das** for their inspiring Udemy and YouTube tutorials.
+- **Darshil Parmar** for their inspiring YouTube tutorials.
 - **Mage AI** and **GCP** communities for excellent documentation.
 
 ---
