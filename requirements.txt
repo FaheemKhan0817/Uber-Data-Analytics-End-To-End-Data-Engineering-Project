@@ -1,0 +1,13 @@
+# Core
+mage-ai==0.9.31
+pandas==2.1.4
+numpy==1.26.0
+
+# GCP
+google-cloud-bigquery==3.12.0
+google-cloud-storage==2.10.0
+pandas-gbq==0.19.2
+
+# Utilities
+pyarrow==12.0.1  # For BigQuery optimized I/O
+python-dotenv==1.0.0  # For environment variables

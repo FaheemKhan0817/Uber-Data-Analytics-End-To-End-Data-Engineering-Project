@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  mage_ai:
+    image: mageai/mageai:latest
+    container_name: uber_etl_pipeline
+    ports:
+      - "6789:6789"  # Mage UI port
+    volumes:
+      - ./mage_data:/home/src  # Pipeline code
+      - ~/.config/gcloud:/root/.config/gcloud  # GCP credentials
+    environment:
+      - GOOGLE_APPLICATION_CREDENTIALS=/root/.config/gcloud/application_default_credentials.json
+    restart: unless-stopped
+    networks:
+      - uber_net
+
+networks:
+  uber_net:
+    driver: bridge
