@@ -47,8 +47,8 @@ This project builds a scalable data pipeline to process Uber trip data (e.g., `t
 
 ```
 ### Workflow Diagram
-![Data Pipeline Workflow](./Data%20Pipeline%20Workflow%20with%20Mage%20AI.png)
-```
+### Workflow Diagram
+![Data Pipeline Workflow](Data%20Pipeline%20Workflow%20with%20Mage%20AI.png)```
 ---
 
 ## 🛠️ Tools & Technologies
