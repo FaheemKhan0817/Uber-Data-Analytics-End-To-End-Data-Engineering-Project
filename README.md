@@ -44,12 +44,10 @@ This project builds a scalable data pipeline to process Uber trip data (e.g., `t
   ↓
 [End]
 ```
+![Data Pipeline Workflow](./data_pipeline_workflow_mageai.png)
+
 
 ```
-### Workflow Diagram
-### Workflow Diagram
-![Data Pipeline Workflow](Data%20Pipeline%20Workflow%20with%20Mage%20AI.png)```
----
 
 ## 🛠️ Tools & Technologies
 
